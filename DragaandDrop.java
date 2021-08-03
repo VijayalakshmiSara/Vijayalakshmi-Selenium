@@ -12,7 +12,7 @@ public class DragaandDrop {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.leafground.com/pages/drag.html");
 		WebElement from = driver.findElement(By.id("draggable"));
-		System.out.println("Added conflict");
+		System.out.println("Added");
 		Actions builder = new Actions(driver);
 		builder.dragAndDropBy(from, 135 , 40);
 
