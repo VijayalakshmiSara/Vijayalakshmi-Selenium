@@ -8,7 +8,8 @@ public class ChangeOddIndexToUpper {
 				String test = "changeme";
 				String test2 = test.toUpperCase();
 				char test1[] = test2.toCharArray();
-				System.out.println("New one conflict");
+				System.out.println("Welcome to check the odd Index");
+
 				for (int i=0; i<test1.length ; i++) {
 					if(i%2==0) {
 						System.out.print(test.charAt(i));
