@@ -4,9 +4,9 @@ public class Anagram {
 
 	public static void main(String[] args) {
 		       //Declare a String 
-				String text1 = "stop";
+				String text1 = "viji";
 				//Declare another String
-				String text2 = "pots";
+				String text2 = "ijiv";
 				int count = 0;
 				char[] text11 = text1.toUpperCase().toCharArray();
 				char[] text12 = text2.toUpperCase().toCharArray();
