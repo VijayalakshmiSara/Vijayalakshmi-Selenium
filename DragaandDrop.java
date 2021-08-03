@@ -11,7 +11,8 @@ public class DragaandDrop {
 		System.setProperty("webdriver.chrome.driver", "chromedriver4.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.leafground.com/pages/drag.html");
-		WebElement from = driver.findElement(By.id("droppable"));
+		WebElement from = driver.findElement(By.id("draggable"));
+		System.out.println("Drag and drop");
 		Actions builder = new Actions(driver);
 		builder.dragAndDropBy(from, 135 , 40);
 
